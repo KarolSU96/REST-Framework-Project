@@ -3,5 +3,5 @@ from followers import views
 
 urlpatterns = [
     path('followers/', views.FollowerList.as_view()),
-    path('follower/<int:pk>/', views.FolowerDetails.as_view())
+    path('follower/<int:pk>/', views.FolowerDetail.as_view())
 ]
